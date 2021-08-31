@@ -13,8 +13,7 @@
   npm run build
   npm start
   ```
-  
-# OR
+ - OR
 
 3. Run as dev
 ```bash 
