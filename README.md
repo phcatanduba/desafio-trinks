@@ -3,7 +3,7 @@
 ## How to run
 1. Clone this repository
 
-2. Install dependecies 
+2. Install dependencies 
 ```bash 
   npm i
 ```
