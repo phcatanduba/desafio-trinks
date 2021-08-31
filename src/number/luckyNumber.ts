@@ -9,11 +9,9 @@ export default function isALuckyNumber(number: string) {
     let index = 0;
     while (listOfNumbers.length > listOfNumbers[index]) {
         index++;
-        console.log(listOfNumbers);
         listOfNumbers = listOfNumbers.filter(
             (number, j) => (j + 1) % listOfNumbers[index] !== 0
         );
-        console.log(listOfNumbers);
     }
 
     if (listOfNumbers.includes(+number)) {
