@@ -7,13 +7,15 @@
     "build": "npx tsc --outDir dist",
     "start": "node dist/index.js",
     "dev": "npx --exec ts-node src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest -i"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^16.7.9",
+    "jest": "^27.1.0",
+    "ts-jest": "^27.0.5",
     "ts-node": "^10.2.1",
     "tslib": "^2.3.1",
     "typescript": "^4.4.2"
